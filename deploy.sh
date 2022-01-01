@@ -6,6 +6,7 @@ sudo apt install -y curl
 echo '--------克隆HEXO--------'
 git clone https://hub.fastgit.org/fyfq/fyfq.github.io.git
 cd fyfq.github.io
+git remote set-url origin git@github.com:fyfq/fyfq.github.io.git
 echo '--------安装NVM--------'
 curl -o- https://raw.fastgit.org/nvm-sh/nvm/v0.39.1/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
