@@ -10,7 +10,7 @@ git remote set-url origin git@github.com:fyfq/fyfq.github.io.git
 echo '--------安装NVM--------'
 curl -o- https://raw.fastgit.org/nvm-sh/nvm/v0.39.1/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-$([ -s "$NVM_DIR/nvm.sh" ]) && $(\. "$NVM_DIR/nvm.sh") # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 echo '--------安装NPM--------'
 nvm install 16
