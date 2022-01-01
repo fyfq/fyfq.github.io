@@ -1,7 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories:
 categories: 
     - 分类1
     - 分类2
