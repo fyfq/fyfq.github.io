@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "a932433e4063cee8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c58f31912aa12606",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/第一篇文章.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d42a607871346c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "10af4119f60ee6e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b938501d1deb595",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f33e9e89f8d1bcde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "231fb25a2a4a93c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f15b2cee1e083b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "184b3539fa421212",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/第一篇文章.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c58f31912aa12606",
+  "lastOpenFiles": [
+    "_posts/第一篇文章.md",
+    "_posts/test-1.md",
+    "_posts/test.md",
+    "第一篇文章/index.md"
+  ]
+}
