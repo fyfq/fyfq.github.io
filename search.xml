@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇文章</title>
-    <url>/2021/12/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<p>希望能坚持下去</p>
+    <title>BCOS</title>
+    <url>/2022/01/08/BCOS/</url>
+    <content><![CDATA[<h1 id="BCOS"><a href="#BCOS" class="headerlink" title="BCOS"></a>BCOS</h1><h2 id="AIR版本搭建"><a href="#AIR版本搭建" class="headerlink" title="AIR版本搭建"></a>AIR版本搭建</h2><p>参考地址：<a href="https://fisco-bcos-doc.readthedocs.io/zh_CN/latest/docs/quick_start/air_installation.html">FISCO BCOS</a></p>
+<h3 id="1-安装依赖"><a href="#1-安装依赖" class="headerlink" title="1 安装依赖"></a>1 安装依赖</h3><p>安装Ubuntu依赖</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install -y curl openssl</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建操作目录"><a href="#2-创建操作目录" class="headerlink" title="2 创建操作目录"></a>2 创建操作目录</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建操作目录</span></span><br><span class="line"><span class="built_in">cd</span> ~ &amp;&amp; mkdir -p fisco &amp;&amp; <span class="built_in">cd</span> fisco</span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载建链脚本</span></span><br><span class="line">curl -<span class="comment">#LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v3.0.0-rc1/build_chain.sh &amp;&amp; chmod u+x build_chain.sh</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Note: 若访问git网速太慢，可尝试如下命令下载建链脚本:</span></span><br><span class="line">curl -<span class="comment">#LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/FISCO-BCOS/FISCO-BCOS/releases/v3.0.0-rc1/build_chain.sh &amp;&amp; chmod u+x build_chain.sh</span></span><br></pre></td></tr></table></figure>
+<h3 id="3-搭建4节点非国密联盟链"><a href="#3-搭建4节点非国密联盟链" class="headerlink" title="3 搭建4节点非国密联盟链"></a>3 搭建4节点非国密联盟链</h3><p>请确保机器的30300<del>30303，20200</del>20203，8545~8548端口没有被占用。</p>
 ]]></content>
       <categories>
-        <category>随笔</category>
+        <category>区块链</category>
       </categories>
   </entry>
   <entry>
@@ -28,16 +32,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>BCOS</title>
-    <url>/2022/01/08/BCOS/</url>
-    <content><![CDATA[<h1 id="BCOS区块链"><a href="#BCOS区块链" class="headerlink" title="BCOS区块链"></a>BCOS区块链</h1><h2 id="AIR版本搭建"><a href="#AIR版本搭建" class="headerlink" title="AIR版本搭建"></a>AIR版本搭建</h2><p>参考地址：<a href="https://fisco-bcos-doc.readthedocs.io/zh_CN/latest/docs/quick_start/air_installation.html">FISCO BCOS</a></p>
-<h3 id="1-安装依赖"><a href="#1-安装依赖" class="headerlink" title="1 安装依赖"></a>1 安装依赖</h3><p>安装Ubuntu依赖</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install -y curl openssl</span><br></pre></td></tr></table></figure>
-<h3 id="2-创建操作目录"><a href="#2-创建操作目录" class="headerlink" title="2 创建操作目录"></a>2 创建操作目录</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建操作目录</span></span><br><span class="line"><span class="built_in">cd</span> ~ &amp;&amp; mkdir -p fisco &amp;&amp; <span class="built_in">cd</span> fisco</span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载建链脚本</span></span><br><span class="line">curl -<span class="comment">#LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v3.0.0-rc1/build_chain.sh &amp;&amp; chmod u+x build_chain.sh</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Note: 若访问git网速太慢，可尝试如下命令下载建链脚本:</span></span><br><span class="line">curl -<span class="comment">#LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/FISCO-BCOS/FISCO-BCOS/releases/v3.0.0-rc1/build_chain.sh &amp;&amp; chmod u+x build_chain.sh</span></span><br></pre></td></tr></table></figure>
-<h3 id="3-搭建4节点非国密联盟链"><a href="#3-搭建4节点非国密联盟链" class="headerlink" title="3 搭建4节点非国密联盟链"></a>3 搭建4节点非国密联盟链</h3><p>请确保机器的30300<del>30303，20200</del>20203，8545~8548端口没有被占用。</p>
+    <title>第一篇文章</title>
+    <url>/2021/12/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>希望能坚持下去</p>
 ]]></content>
       <categories>
-        <category>区块链</category>
+        <category>随笔</category>
       </categories>
   </entry>
 </search>
