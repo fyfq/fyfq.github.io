@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>HEXO配置</title>
-      <link href="/2022/11/13/Linux/HEXO%E9%85%8D%E7%BD%AE/"/>
-      <url>/2022/11/13/Linux/HEXO%E9%85%8D%E7%BD%AE/</url>
+      <title>HEXO+OBSIDIAN+GITHUB PAGES在线博客</title>
+      <link href="/2022/11/13/Linux/HEXO+OBSIDIAN+GITHUB%20PAGES%E5%9C%A8%E7%BA%BF%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2022/11/13/Linux/HEXO+OBSIDIAN+GITHUB%20PAGES%E5%9C%A8%E7%BA%BF%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<h1 id="自动进行标签分类"><a href="#自动进行标签分类" class="headerlink" title="自动进行标签分类"></a>自动进行标签分类</h1><p><a href="https://github.com/xu-song/hexo-auto-category">https://github.com/xu-song/hexo-auto-category</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-auto-category --save</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p><img src="/../../images/Pasted%20image%2020221113124034.png"></p><h1 id="1-Hexo的安装"><a href="#1-Hexo的安装" class="headerlink" title="1.Hexo的安装"></a>1.Hexo的安装</h1><p>安装依赖</p><ul><li>nodejs：参考Nodejs安装</li><li>git</li></ul><h1 id="自动进行标签分类"><a href="#自动进行标签分类" class="headerlink" title="自动进行标签分类"></a>自动进行标签分类</h1><p><a href="https://github.com/xu-song/hexo-auto-category">https://github.com/xu-song/hexo-auto-category</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-auto-category --save</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -46,6 +46,8 @@
         <tags>
             
             <tag> Linux </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
